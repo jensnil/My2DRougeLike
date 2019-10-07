@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7871664300951298235
+--- !u!1 &581784229688367718
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7871664300951298234}
-  - component: {fileID: 7871664300951298181}
-  - component: {fileID: 7871664300951298180}
+  - component: {fileID: 581784229688367719}
+  - component: {fileID: 581784229688367704}
+  - component: {fileID: 581784229688367705}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7871664300951298234
+--- !u!4 &581784229688367719
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7871664300951298235}
+  m_GameObject: {fileID: 581784229688367718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7871664300951298181
+--- !u!114 &581784229688367704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7871664300951298235}
+  m_GameObject: {fileID: 581784229688367718}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a06884e23e974aff91d077b61e9c0fe, type: 3}
@@ -47,13 +47,13 @@ MonoBehaviour:
   boardScript: {fileID: 0}
   playerFoodPoints: 100
   playersTurn: 1
---- !u!114 &7871664300951298180
+--- !u!114 &581784229688367705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7871664300951298235}
+  m_GameObject: {fileID: 581784229688367718}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30d19b7e145db4f4285e1ef6611f58dc, type: 3}
@@ -78,13 +78,13 @@ MonoBehaviour:
   - {fileID: 6720966143068286589, guid: 681e4afc796f14748bf3effec47b10c5, type: 3}
   - {fileID: 6960238755494826597, guid: 09505f53727b844e5a70c594720ebf4b, type: 3}
   wallTiles:
-  - {fileID: 5995664475833540711, guid: 146bd923ab4cc4063a435c1e920b7819, type: 3}
-  - {fileID: 7633983283838701130, guid: b55b9c42465f44ce6bb24db213e959c8, type: 3}
-  - {fileID: 6809363021670476516, guid: 7cac6f9dc94dd4cfe907e5fb8aeb9c47, type: 3}
-  - {fileID: 4677878371946562324, guid: 02bbaaadd41ff43258520e7c0bca409d, type: 3}
-  - {fileID: 5833508667386119890, guid: 54d2ca9dc34284bc0b5990450e207fb1, type: 3}
-  - {fileID: 5010024248144933471, guid: ae076652ddb1f4fa98539bc776bc3358, type: 3}
-  - {fileID: 7938907153364955893, guid: 2d27b952c05974795a8a16c2b1d33f75, type: 3}
+  - {fileID: 306678040558038357, guid: 146bd923ab4cc4063a435c1e920b7819, type: 3}
+  - {fileID: 4504778608909910904, guid: b55b9c42465f44ce6bb24db213e959c8, type: 3}
+  - {fileID: 651575579979163606, guid: 7cac6f9dc94dd4cfe907e5fb8aeb9c47, type: 3}
+  - {fileID: 1701870856243301926, guid: 02bbaaadd41ff43258520e7c0bca409d, type: 3}
+  - {fileID: 540891719992151008, guid: 54d2ca9dc34284bc0b5990450e207fb1, type: 3}
+  - {fileID: 1365230177447509869, guid: ae076652ddb1f4fa98539bc776bc3358, type: 3}
+  - {fileID: 4132548404519862215, guid: 2d27b952c05974795a8a16c2b1d33f75, type: 3}
   foodlTiles:
   - {fileID: 8242555619421402029, guid: f3b6d59309a3240e0a80dc0dec2d583b, type: 3}
   - {fileID: 5653233400260739734, guid: c012286c201fc4d488a8a2d829d0b0ec, type: 3}
