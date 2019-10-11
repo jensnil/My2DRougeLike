@@ -54,7 +54,7 @@ public abstract class MovingObject : MonoBehaviour
     {
         RaycastHit2D hit;
 
-        bool cantMove = Move(xDir, yDir, out hit);
+        bool canMove = Move(xDir, yDir, out hit);
         
         if (hit.transform == null)
         {
@@ -62,7 +62,7 @@ public abstract class MovingObject : MonoBehaviour
         }
         T hitComponent = hit.transform.GetComponent<T>();
 
-        if (cantMove && hitComponent == null)
+        if (!canMove && hitComponent != null)
         {
             OnCantMove(hitComponent);
         }
