@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Complete-Game/_Complete-Game.unity
     guid: 72d362146ea8845739db4749fdcbe96d
+  - enabled: 1
+    path: Assets/My 2D RougeLike.unity
+    guid: 7dacb14d4c4f8425e902749091e22966
   m_configObjects: {}
